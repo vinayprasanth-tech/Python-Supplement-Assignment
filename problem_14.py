@@ -10,3 +10,4 @@ def is_prime(n):
     return True
 
 print(f"Is 17 prime? {is_prime(17)}")
+
