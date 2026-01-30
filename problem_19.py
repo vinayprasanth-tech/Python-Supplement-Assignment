@@ -8,3 +8,4 @@ def power(base, exponent):
     return result
 
 print(f"2^8 = {power(2, 8)}")
+
