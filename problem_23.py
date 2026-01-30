@@ -10,3 +10,4 @@ for num in numbers:
     else:
         negative += 1
 print(f"Positive: {positive}, Negative: {negative}")
+
