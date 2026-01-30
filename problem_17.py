@@ -10,3 +10,4 @@ def capitalize_words(text):
 
 sentence = "hello world from python"
 print(capitalize_words(sentence))
+
