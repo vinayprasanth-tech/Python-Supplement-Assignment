@@ -1,12 +1,12 @@
 # Problem 60: Check if number is Armstrong number
 # Find and fix the error
-
 def is_armstrong(n):
-    num_str = str(n)
-    num_digits = len(num_str)
     total = 0
-    for digit in num_str:
-        total += int(digit) ** num_digits
+    num = n
+    num_digits = len(str(n))
+    while num > 0:
+        digit = num % 10
+        total += digit ** num_digits
+        num //= 10
     return total == n
 
-print(f"Is 153 Armstrong? {is_armstrong(153)}")
