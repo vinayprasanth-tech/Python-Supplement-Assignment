@@ -3,7 +3,7 @@
 
 def sum_even_indices(lst):
     total = 0
-    for i in range(0, len(lst), 2):
+    for i in range(0, len(lst), 2):  # iterate over even indices
         total += lst[i]
     return total
 
