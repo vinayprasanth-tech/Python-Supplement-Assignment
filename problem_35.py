@@ -1,11 +1,6 @@
-# Problem 35: Calculate percentage
-# Find and fix the error
+original = [1, 2, 3, 4, 5]
+copy = original.copy()
+copy.append(6)
 
-def calculate_percentage(obtained, total):
-    percentage = (obtained / total) * 100
-    return percentage
-
-marks = 45
-total_marks = 50
-result = calculate_percentage(marks, total_marks)
-print(f"Percentage: {result}%")
+print(f"Original: {original}")
+print(f"Copy: {copy}")
