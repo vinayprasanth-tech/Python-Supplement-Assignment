@@ -9,3 +9,4 @@ def gcd(a, b):
     return a
 
 print(f"GCD of 48 and 18: {gcd(48, 18)}")
+
