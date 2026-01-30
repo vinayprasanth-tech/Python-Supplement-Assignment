@@ -6,3 +6,4 @@ for num in numbers[1:]:
         minimum = num
 
 print(f"Minimum: {minimum}")
+
