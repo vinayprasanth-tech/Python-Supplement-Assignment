@@ -7,9 +7,12 @@ def find_mode(lst):
         freq[item] = freq.get(item, 0) + 1
     
     max_freq = max(freq.values())
+    
+    # Return first element with max frequency
     for key, value in freq.items():
         if value == max_freq:
             return key
 
+# Example usage
 numbers = [1, 2, 2, 3, 3, 3, 4]
 print(f"Mode: {find_mode(numbers)}")
